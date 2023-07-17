@@ -43,7 +43,7 @@ function NoticeConfirm() {
     const goModify = () => {
         movePage('/pages/noticeModify');
     };
-
+    //test
     const registerFavorite = () => {
         const favorite_regit = new FormData();
         favorite_regit.append('wid', writingInfo.word);
