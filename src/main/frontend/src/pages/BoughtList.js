@@ -23,7 +23,6 @@ function BoughtList() {
         return price.replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
     }
 
-
     useEffect(() => {
         axios.post('/api/purchaseList',null,{})
             .then(response => setData(response.data))
