@@ -77,7 +77,7 @@ function Chat() {
             movePage('/pages/loginPage');
         });
 
-        const socket = new WebSocket('ws://panda1562.iptime.org:8080/chat');
+        const socket = new WebSocket('http://180.189.107.134:8000/');
 
         socket.onopen = () => {
             console.log("소켓 열림");
@@ -92,7 +92,7 @@ function Chat() {
                 let room = socketMap.get(chatRoom.roomId);
 
                 if (room == null) {
-                    let room = new WebSocket(`ws://panda1562.iptime.org:8080/chat/${chatRoom.roomId}`);
+                    let room = new WebSocket(`http://180.189.107.134:8000/chat/${chatRoom.roomId}`);
                     socketMap.set(chatRoom.roomId, room);
 
                     room.onopen = () => {
