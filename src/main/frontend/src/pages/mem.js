@@ -107,11 +107,10 @@ function Mem() {
         }
         axios.post('/sign/joinMem', user, {
             headers: {
-                "Content-Type": `application/json`,
-                "Access-Control-Allow-Origin": `http://localhost:8000`,
-                'Access-Control-Allow-Credentials':"true",
+                "Content-Type": "application/json",
             },
         })
+
             .then((response)=> {
                 if(response.status === 200) {
                     console.log('회원가입 성공');

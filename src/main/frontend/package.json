@@ -37,7 +37,7 @@
     "web-vitals": "^2.1.4",
     "ws": "^8.13.0"
   },
-  "proxy": "http://panda1562.iptime.org:8080",
+  "proxy": "http://localhost:8080",
   "scripts": {
     "start": "set PORT=8000 && react-scripts start",
     "build": "react-scripts build",

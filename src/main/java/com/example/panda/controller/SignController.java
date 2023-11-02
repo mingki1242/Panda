@@ -27,6 +27,7 @@ import org.springframework.web.bind.annotation.*;
 public class SignController {
     private final SignService signService;
 
+    @CrossOrigin(origins = "http://localhost:8000")
     @PostMapping("/sign/joinMem")
     public ResponseEntity<UserResponseDTO> joinMem(@RequestBody UserDTO userDTO) {
         log.info("joinMem controller start");
@@ -36,18 +37,21 @@ public class SignController {
         }
         return ResponseEntity.ok(signService.joinMem((userDTO)));
     }
+//    @CrossOrigin(origins = "http://localhost:8000")
     @GetMapping("/login")
     public HttpStatus login() {
         log.info("login controller start");
         return HttpStatus.OK;
     }
 
+//    @CrossOrigin(origins = "http://localhost:8000")
     @GetMapping("/check")
     public boolean loginCheck() {
         log.info("loginCheck controller start");
         return signService.isAuthenticated();
     }
 
+//    @CrossOrigin(origins = "http://localhost:8000")
     @GetMapping("/logout")
     public HttpStatus logout(HttpServletRequest request, HttpServletResponse response){
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
