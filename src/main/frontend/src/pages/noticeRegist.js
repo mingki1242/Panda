@@ -307,44 +307,32 @@ const NoticeRegist = () => {
         <div>
             <div className={styles.board_wrapr}>
                 <div className={styles.board_title}>
-                    <strong>게시글 작성</strong>
-                    <p>판매자는 하단 등록 버튼을 눌러 판매 등록을 할 수 있습니다.</p>
+                    <strong>상품 등록</strong>
                 </div>
                 <form onSubmit={registerInfo} encType={"multipart/form-data"}>
                     <div className={styles.board_write_wrap}>
                         <div className={styles.board_write}>
                             <div className={styles.title}>
-                                <dl>
-                                    <dt>{/*<label htmlFor={writing_name}></label>*/}제목</dt>
-                                    <dd><input type="text" id="writing_name" value={writing_name}
-                                               placeholder="제목 입력" onChange={(e) => setTitle(e.target.value)}/></dd>
-                                </dl>
+                                제목 : <input type="text" id="writing_name" value={writing_name}
+                                            placeholder="제목 입력" onChange={(e) => setTitle(e.target.value)}/>
                             </div>
                             <div className={styles.info}>
                                 {windowSize <= 550 ?
                                     <table className={styles.info_table}>
+
                                         <tr>
                                             <td>
-                                                <dl>
-                                                    <dt>사진 등록</dt>
-                                                    <dd id="photo_regist_dd">
-                                                        <input type="file" ref={imageInput} name="writing_photo"
-                                                               id="writing_photo"
-                                                               onChange={handleFileChange}/>
-                                                    </dd>
-                                                </dl>
+                                                사진 등록 :  <input type="file" ref={imageInput} name="writing_photo"
+                                                                id="writing_photo" onChange={handleFileChange}/>
                                             </td>
-                                        </tr>
-                                        <tr>
                                             <td>
-                                                <dl>
-                                                    <dt>대표 이미지 설정</dt>
-                                                    <dd>
-                                                        <img alt="미리보기" src={writing_photo} style={{maxWidth: "100px"}}/>
-                                                    </dd>
-                                                </dl>
+                                                대표 이미지 설정 :
+                                                <img alt="미리보기" src={writing_photo} style={{maxWidth: "100px"}}/>
                                             </td>
                                         </tr>
+
+
+
 
                                         <tr>
                                             <td>

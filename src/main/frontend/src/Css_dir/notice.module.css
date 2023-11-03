@@ -46,9 +46,10 @@
 }
 .board_title
 {
-    margin-top:150px;
+    margin-top:70px;
     font-size:10px;
     margin-bottom: 30px;
+    background-color: darkgray;
 }
 
 .board_title strong

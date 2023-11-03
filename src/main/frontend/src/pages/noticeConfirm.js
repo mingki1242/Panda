@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import axios from 'axios';
-import {useLocation, useNavigate } from 'react-router-dom';
+import {useLocation, useNavigate, useParams} from 'react-router-dom';
 import styles from "../Css_dir/notice.module.css";
 import profile from "../imgs/logo512_512.png";
 import Modal from 'react-modal';
@@ -19,7 +19,6 @@ function NoticeConfirm() {
     const [auctionDate, setAuctionDate] = useState([]);
     const [isMaxOpen, setIsMaxOpen] = useState(false);
     const [maxPrice , setMaxPrice] = useState(""); //최고가 입력
-
 
     const closeMaxModal = () => {
         setIsMaxOpen(false);
@@ -197,6 +196,10 @@ function NoticeConfirm() {
                 });
         };
 
+        const changeNotice = (postId) => {
+            movePage(`/pages/noticeModify/${postId}`);
+        }
+
         const handleDelete = () => {
             deletePost(writingInfo.word);
         };
@@ -329,6 +332,10 @@ function NoticeConfirm() {
                             {/*)}*/}
                             {loginUser && data.userDTO && data.userDTO.email === loginUser.email && (
                                 <button onClick={handleDelete}>삭제</button>
+                            )}
+                            {loginUser && data.userDTO && data.userDTO.email === loginUser.email && (
+                                <button onClick={(e) => changeNotice(data.wid)}>수정</button>
+
                             )}
                             {loginUser && data.userDTO && data.userDTO.email !== loginUser.email && isAuction.writing_Id !== -1 && (
                                 <button onClick={goChat} className={styles.on}>
