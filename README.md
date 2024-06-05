@@ -47,36 +47,36 @@ DB : Mysql , MongoDB
 
 
 
-1. 로그인 하기전 검색 화면
+2. 로그인 하기전 검색 화면
 <img width="722" alt="4" src="https://github.com/mingki1242/Panda/assets/86062121/43d243d2-bfed-44e9-a8a9-65e2c8b1526b">
 
 
 
-1. 로그인 화면
+3. 로그인 화면
 <img width="672" alt="5" src="https://github.com/mingki1242/Panda/assets/86062121/89c97470-e87b-47da-aa30-4db66329b6b3">
 
 
-1. 로그인 이후 초기 화면
+4. 로그인 이후 초기 화면
 <img width="741" alt="6" src="https://github.com/mingki1242/Panda/assets/86062121/a69446b3-9e74-4cf5-ba32-ae1e55556551">
 
 
 
-1. 게시글 작성 화면
+5. 게시글 작성 화면
 <img width="494" alt="7" src="https://github.com/mingki1242/Panda/assets/86062121/ba93baaa-fa72-4cd6-a143-7460c8ec132f">
 
 
 
-1. 게시글 상세 내용 확인
+6. 게시글 상세 내용 확인
 <img width="646" alt="8" src="https://github.com/mingki1242/Panda/assets/86062121/37a56f21-a67c-4f65-99e5-2e4fcfd35b6a">
 
 
 
-1. 채팅 화면
+7. 채팅 화면
 <img width="549" alt="9" src="https://github.com/mingki1242/Panda/assets/86062121/5a5b0703-d8c9-4a57-a02d-3f1b5f2cb7fa">
 
 
 
-1. 슬랙봇 채팅 화면 (대화형 인공지능)
+8. 슬랙봇 채팅 화면 (대화형 인공지능)
 <img width="721" alt="10" src="https://github.com/mingki1242/Panda/assets/86062121/58f52a9e-e8e3-4b28-aa4c-e06eb0c06183">
 
 
@@ -87,7 +87,7 @@ DB : Mysql , MongoDB
 
 
 
-1. 마이페이지 화면
+9. 마이페이지 화면
 <img width="719" alt="12" src="https://github.com/mingki1242/Panda/assets/86062121/399479e9-3ee2-4010-858c-707916a0219e">
 <img width="727" alt="13" src="https://github.com/mingki1242/Panda/assets/86062121/7ce6692e-9fe1-47b9-9747-ab854489289c">
 
