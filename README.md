@@ -1,4 +1,4 @@
-![1](https://github.com/mingki1242/Panda/assets/86062121/f891edc7-9587-4564-a01d-6a56fafd795a)## 💻 민기 개발 담당 (PL)
+## 💻 민기 개발 담당 (PL)
 
 - 데모 시연 발표 및 개발 문서 작성 (발표 수상 경험)
 - 게시글 등록관련 CRUD 기능 전반에 대한 REST API 구축
