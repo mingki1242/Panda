@@ -36,50 +36,58 @@ DB : Mysql , MongoDB
 
 
 ## 💥 Server 구성
-
+<img width="475" alt="2" src="https://github.com/mingki1242/Panda/assets/86062121/0871cc45-7772-4b2c-a37a-d379cbfac102">
 
 
 ## 💭 프로토 타입
 
 1. 초기 접근 화면
+<img width="707" alt="3" src="https://github.com/mingki1242/Panda/assets/86062121/5a8c3220-76ba-44e8-9643-29b6b182911a">
 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc546e81-46fd-4182-82d3-a1309d20d4c0/b93ccbbc-c39b-49fc-8199-5ff750766570/Untitled.png)
+
 
 1. 로그인 하기전 검색 화면
+<img width="722" alt="4" src="https://github.com/mingki1242/Panda/assets/86062121/43d243d2-bfed-44e9-a8a9-65e2c8b1526b">
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc546e81-46fd-4182-82d3-a1309d20d4c0/b9319b31-ef6c-440f-8eeb-1e599ca5acd8/Untitled.png)
+
 
 1. 로그인 화면
+<img width="672" alt="5" src="https://github.com/mingki1242/Panda/assets/86062121/89c97470-e87b-47da-aa30-4db66329b6b3">
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc546e81-46fd-4182-82d3-a1309d20d4c0/f3b637f5-9f1f-4dde-9fcf-d5959f566621/Untitled.png)
 
 1. 로그인 이후 초기 화면
+<img width="741" alt="6" src="https://github.com/mingki1242/Panda/assets/86062121/a69446b3-9e74-4cf5-ba32-ae1e55556551">
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc546e81-46fd-4182-82d3-a1309d20d4c0/d144c333-9061-4b6b-8341-7e5270b43139/Untitled.png)
+
 
 1. 게시글 작성 화면
+<img width="494" alt="7" src="https://github.com/mingki1242/Panda/assets/86062121/ba93baaa-fa72-4cd6-a143-7460c8ec132f">
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc546e81-46fd-4182-82d3-a1309d20d4c0/f258acf5-a482-4ae7-aba5-f5e0af907abe/Untitled.png)
+
 
 1. 게시글 상세 내용 확인
+<img width="646" alt="8" src="https://github.com/mingki1242/Panda/assets/86062121/37a56f21-a67c-4f65-99e5-2e4fcfd35b6a">
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc546e81-46fd-4182-82d3-a1309d20d4c0/7b09da40-cfb9-4c02-afa3-500bf6c5ba02/Untitled.png)
+
 
 1. 채팅 화면
+<img width="549" alt="9" src="https://github.com/mingki1242/Panda/assets/86062121/5a5b0703-d8c9-4a57-a02d-3f1b5f2cb7fa">
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc546e81-46fd-4182-82d3-a1309d20d4c0/cd2d548a-807e-4d42-a872-3b22ff15d61d/Untitled.png)
+
 
 1. 슬랙봇 채팅 화면 (대화형 인공지능)
+<img width="721" alt="10" src="https://github.com/mingki1242/Panda/assets/86062121/58f52a9e-e8e3-4b28-aa4c-e06eb0c06183">
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc546e81-46fd-4182-82d3-a1309d20d4c0/0ca281ae-03d2-4416-981f-8e3850f260fc/Untitled.png)
+
+
 
 8-1. 채팅(슬랙봇) 사용 기술
+<img width="479" alt="11" src="https://github.com/mingki1242/Panda/assets/86062121/d49c56ce-108b-4a95-b9c5-47faa168cf24">
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc546e81-46fd-4182-82d3-a1309d20d4c0/14b00a18-c06d-4a7d-b5c0-583472293664/Untitled.png)
+
 
 1. 마이페이지 화면
+<img width="719" alt="12" src="https://github.com/mingki1242/Panda/assets/86062121/399479e9-3ee2-4010-858c-707916a0219e">
+<img width="727" alt="13" src="https://github.com/mingki1242/Panda/assets/86062121/7ce6692e-9fe1-47b9-9747-ab854489289c">
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc546e81-46fd-4182-82d3-a1309d20d4c0/0973dad5-f2bd-4a15-a032-607d38cf5b46/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc546e81-46fd-4182-82d3-a1309d20d4c0/4edc46c2-e75b-49d3-bd60-283a204c1f86/Untitled.png)
