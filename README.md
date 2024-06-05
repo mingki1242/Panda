@@ -1,4 +1,4 @@
-## 💻 민기 개발 담당 (PL)
+![1](https://github.com/mingki1242/Panda/assets/86062121/f891edc7-9587-4564-a01d-6a56fafd795a)## 💻 민기 개발 담당 (PL)
 
 - 데모 시연 발표 및 개발 문서 작성 (발표 수상 경험)
 - 게시글 등록관련 CRUD 기능 전반에 대한 REST API 구축
@@ -31,16 +31,18 @@ DB : Mysql , MongoDB
 
 
 ## 📁 DB Schema (ERD)
+![1](https://github.com/mingki1242/Panda/assets/86062121/be4a09e2-19d8-4fdc-ae3c-f670e99c6acc)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc546e81-46fd-4182-82d3-a1309d20d4c0/845c59e0-3eb6-4d73-8411-cb6b7d21be4d/Untitled.png)
+
 
 ## 💥 Server 구성
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc546e81-46fd-4182-82d3-a1309d20d4c0/fb82dc3d-afb9-4b95-b514-c8e15968425b/Untitled.png)
+
 
 ## 💭 프로토 타입
 
 1. 초기 접근 화면
+
 
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc546e81-46fd-4182-82d3-a1309d20d4c0/b93ccbbc-c39b-49fc-8199-5ff750766570/Untitled.png)
 
